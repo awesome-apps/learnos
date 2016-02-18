@@ -24,3 +24,4 @@ anmem/build:
 	cd anmem && $(MAKE) CFLAGS=-fno-zero-initialized-in-bss\ -fno-stack-protector\ -mno-red-zone\ -ffreestanding INCLUDES=-I../../src/memory/include\ -I../../src/\ -I../../src/libkern && cd -
 	cd anmem/libs/analloc && make
 
+
